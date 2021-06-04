@@ -1,0 +1,23 @@
+
+$break: 1300px;
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+  @media (max-width: $break ) {
+    grid-template-columns: auto;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+
+  h1 {
+    margin-left: 10px;
+  }
+}
